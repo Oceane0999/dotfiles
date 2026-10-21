@@ -60,5 +60,11 @@
 [init]
   defaultBranch = master
 [user]
-	email = oceane.seguy@kedgebs.com
-	name = oceane seguy
+	email = @users.noreply.github.com
+	name = Oceane Seguy
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/local/bin/gh auth git-credential
